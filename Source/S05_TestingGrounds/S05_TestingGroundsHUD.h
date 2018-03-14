@@ -1,18 +1,15 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
-
+// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
 #pragma once 
-
-#include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-#include "TestingGroundsHUD.generated.h"
+#include "S05_TestingGroundsHUD.generated.h"
 
 UCLASS()
-class ATestingGroundsHUD : public AHUD
+class AS05_TestingGroundsHUD : public AHUD
 {
 	GENERATED_BODY()
 
 public:
-	ATestingGroundsHUD();
+	AS05_TestingGroundsHUD();
 
 	/** Primary draw call for the HUD */
 	virtual void DrawHUD() override;

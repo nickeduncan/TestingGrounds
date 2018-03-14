@@ -1,13 +1,10 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
-
+// Copyright 1998-2016 Epic Games, Inc. All Rights Reserved.
 #pragma once
-
-#include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "TestingGroundsProjectile.generated.h"
+#include "S05_TestingGroundsProjectile.generated.h"
 
 UCLASS(config=Game)
-class ATestingGroundsProjectile : public AActor
+class AS05_TestingGroundsProjectile : public AActor
 {
 	GENERATED_BODY()
 
@@ -20,7 +17,7 @@ class ATestingGroundsProjectile : public AActor
 	class UProjectileMovementComponent* ProjectileMovement;
 
 public:
-	ATestingGroundsProjectile();
+	AS05_TestingGroundsProjectile();
 
 	/** called when projectile hits something */
 	UFUNCTION()
